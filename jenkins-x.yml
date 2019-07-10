@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: test-log-shdn-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: test-log-shdn-staging
+  pipelines: {}
